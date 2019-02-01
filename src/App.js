@@ -25,10 +25,7 @@ class App extends Component {
     
    this.setState({ boxes: [...this.state.boxes.filter(box => box.id !== box.id)]})
   }
-  // delete(id){
-  //   const delbox = this.state.boxes.filter(i => i.id !== id.id)
-  //   this.setState({delbox})
-  // }
+
   //addBox
   addBox=() =>{
     const newBox = {
